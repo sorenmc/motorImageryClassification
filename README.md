@@ -7,8 +7,11 @@ To develop and test algorithms we used [dataset 2a from BCI competition IV][3].
 The main files for data set 2a are 
 
 dataSet2AOVO.m
+
 dataSet2AOVR.m
+
 dataSet2aDeepAll.m
+
 mainDataset2A.m
 
 The first 2 utilize Filter Bank Common Spatial Patterns (FBCSP) with the one versus one (OVO) and the one versus rest (OVR) multi class extension. dataSet2aDeepAll.m trains a deep convolutional neural network.
