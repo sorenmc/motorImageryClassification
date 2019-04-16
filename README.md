@@ -14,7 +14,7 @@ dataSet2aDeepAll.m
 
 mainDataset2A.m
 
-The first 2 utilize Filter Bank Common Spatial Patterns (FBCSP) with the one versus one (OVO) and the one versus rest (OVR) multi class extension. dataSet2aDeepAll.m trains a deep convolutional neural network.
+The first 2 utilize Filter Bank Common Spatial Patterns (FBCSP) with the one versus one (OVO) and the one versus rest (OVR) multi class extension respectively both using SVM as the classifier model. dataSet2aDeepAll.m trains a deep end to end convolutional neural network, with only minimal preproceesing with a 4th order low pass butterworth filter, filtering each signal. 
 
 
 [1]: https://en.wikipedia.org/wiki/Motor_imagery
