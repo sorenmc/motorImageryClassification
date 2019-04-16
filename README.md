@@ -17,7 +17,7 @@ mainDataset2A.m
 The first 2 utilize Filter Bank Common Spatial Patterns [(FBCSP)][4] with the one versus one (OVO) and the one versus rest (OVR) multi class extension respectively both using support vector machines (SVM) as the classification model. dataSet2aDeepAll.m trains a deep end to end convolutional neural network, with only minimal preproceesing by a 4th order low pass butterworth filter, filtering each signal. 
 mainDataset2A.m uses a version that is inspired by linear discriminant analysis (LDA), 
 
-Out of all these methods FBCSP using OVO performed better and was therefore adapted for a 5 class real time problem. Signals were sampled at 512 Hz using 16 EEG electrodes. This was turned into a paper accepted for IEEE brains 7th annual winter conference:
+Out of all these methods FBCSP using OVO performed better and was therefore adapted for a 5 class real time problem. Signals were sampled at 512 Hz using 16 EEG electrodes. The main file for online classification is onlineTrainingTop.m this was turned into a paper accepted for IEEE brains 7th annual winter conference:
 
 [An Improved Five Class MI Based BCI Scheme for Drone Control Using Filter Bank CSP][5]
 
