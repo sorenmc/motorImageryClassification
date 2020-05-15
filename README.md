@@ -22,8 +22,19 @@ Out of all these methods FBCSP using OVO performed better and was therefore adap
 [An Improved Five Class MI Based BCI Scheme for Drone Control Using Filter Bank CSP][5]
 
 
+Cite us:
+
+@INPROCEEDINGS{8737263,
+  author={S. M. {Christensen} and N. S. {Holm} and S. {Puthusserypady}},
+  booktitle={2019 7th International Winter Conference on Brain-Computer Interface (BCI)}, 
+  title={An Improved Five Class MI Based BCI Scheme for Drone Control Using Filter Bank CSP}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-6},}
+
 [1]: https://en.wikipedia.org/wiki/Motor_imagery
 [2]: https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)
 [3]: https://github.com/bregydoc/bcidatasetIV2a
 [4]: https://ieeexplore.ieee.org/document/4634130
-[5]: 
+[5]: https://ieeexplore.ieee.org/abstract/document/8737263/metrics#metrics
